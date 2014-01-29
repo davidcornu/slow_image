@@ -2,6 +2,8 @@
 
 Serves an image really slowly to test timeout settings.
 
+http://sluggish-image.herokuapp.com/image.jpg
+
 ## Usage
 
 ```shell
