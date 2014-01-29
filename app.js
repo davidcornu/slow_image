@@ -24,6 +24,7 @@ var loadImgBuf = (function(){
   };
 })();
 
+// Serve small chunks of the image, waiting in between each one
 var server = http.createServer(function(req, res){
   loadImgBuf(function(err, imgBuf){
     if (err) {
